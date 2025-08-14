@@ -10,6 +10,11 @@
     "web": "expo start --web",
     "prebuild": "expo prebuild",
     "prebuild:clean": "expo prebuild --clean",
+    "eas-build": "eas build --platform all",
+    "eas-build:ios": "eas build --platform ios",
+    "eas-build:android": "eas build --platform android",
+    "eas-build-run:ios": "eas build:run -p ios",
+    "eas-build-run:android": "eas build:run -p android",
     "lint": "expo lint",
     "format": "prettier --write ."
   },
