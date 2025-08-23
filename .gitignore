@@ -41,3 +41,8 @@ app-example
 # Native folders
 android/
 ios/
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
