@@ -7,7 +7,6 @@
     "icon": "./assets/images/icon.png",
     "scheme": "templateexpo",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.soloenzo.template-expo"
@@ -17,7 +16,7 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "package": "com.soloenzo.templateexpo"
     },
     "web": {
       "bundler": "metro",
@@ -36,7 +35,9 @@
         }
       ],
       "expo-web-browser",
-      "expo-localization"
+      "expo-localization",
+      "expo-font",
+      "expo-image"
     ],
     "experiments": {
       "typedRoutes": true
