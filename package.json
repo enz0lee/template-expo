@@ -17,7 +17,7 @@
     "eas-build:android": "eas build --platform android",
     "eas-build-run:ios": "eas build:run -p ios",
     "eas-build-run:android": "eas build:run -p android",
-    "lint": "eslint .",
+    "lint": "expo lint",
     "typecheck": "tsc --noEmit",
     "check": "npm run lint && npm run typecheck",
     "format": "prettier --write ."
