@@ -18,8 +18,8 @@
     "eas-build-run:ios": "eas build:run -p ios",
     "eas-build-run:android": "eas build:run -p android",
     "lint": "expo lint",
-    "typecheck": "tsc --noEmit",
-    "check": "npm run lint && npm run typecheck",
+    "check:type": "tsc --noEmit",
+    "check": "npm run lint && npm run check:type",
     "doctor": "npx expo-doctor",
     "align-deps": "npx expo install --fix",
     "format": "prettier --write ."
