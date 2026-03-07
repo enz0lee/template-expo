@@ -1,9 +1,9 @@
-const { defineConfig } = require('eslint/config')
-const expoConfig = require('eslint-config-expo/flat')
-const eslintPluginPrettierRecommended = require('eslint-plugin-prettier/recommended')
-const reactCompiler = require('eslint-plugin-react-compiler')
+import expoConfig from 'eslint-config-expo/flat.js'
+import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended'
+import reactCompiler from 'eslint-plugin-react-compiler'
+import { defineConfig } from 'eslint/config'
 
-module.exports = defineConfig([
+export default defineConfig([
   expoConfig,
   reactCompiler.configs.recommended,
   eslintPluginPrettierRecommended,
