@@ -19,6 +19,7 @@
     "eas-build-run:android": "eas build:run -p android",
     "lint": "expo lint",
     "check:type": "tsc --noEmit",
+    "check:compiler": "npx react-compiler-healthcheck@latest",
     "check": "npm run lint && npm run check:type",
     "doctor": "npx expo-doctor",
     "align-deps": "npx expo install --fix",
