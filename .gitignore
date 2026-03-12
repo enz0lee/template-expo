@@ -43,6 +43,5 @@ android/
 ios/
 
 # IDE
-.vscode/
 .idea/
 *.code-workspace
